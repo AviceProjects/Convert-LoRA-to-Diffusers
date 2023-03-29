@@ -43,7 +43,7 @@ parser.add_argument(
     "--lora_path", default=None, type=str, required=True, help="Path to the LoRA in safetensors format."
 )
 parser.add_argument(
-    "--dump_path", default=None, type=str, required=False, help="Where you want the Bin file to be put"
+    "--dump_path", default=None, type=str, required=True, help="Where you want the Bin file to be put"
 )
 
 args = parser.parse_args()
