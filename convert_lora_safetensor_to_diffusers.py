@@ -2,8 +2,6 @@ import argparse
 
 import torch
 from safetensors.torch import load_file, save_file
-from diffusers import StableDiffusionPipeline
-from diffusers import DPMSolverMultistepScheduler
 
 
 LORA_PREFIX_UNET = 'lora_unet'
